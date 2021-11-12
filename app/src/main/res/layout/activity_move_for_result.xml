@@ -10,10 +10,10 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/choose_number"
+        android:text="@string/choose_color"
         android:layout_marginLeft="@dimen/activity_horizontal_margin"
         android:layout_marginRight="@dimen/activity_horizontal_margin"
-        android:layout_marginBottom="@dimen/activity_verical_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
         android:textSize="24sp"
         android:gravity="center"/>
 
@@ -26,20 +26,20 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/rb_blue"
-            android:text="@string/_50"
-            android:layout_marginBottom="@dimen/activity_verical_margin"/>
+            android:text="@string/_blue"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"/>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/rb_red"
-            android:text="@string/_100"
-            android:layout_marginBottom="@dimen/activity_verical_margin"/>
+            android:text="@string/_red"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"/>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/rb_yellow"
-            android:text="@string/_150"
-            android:layout_marginBottom="@dimen/activity_verical_margin"/>
+            android:text="@string/_yellow"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"/>
     </RadioGroup>
     <Button
         android:layout_width="match_parent"

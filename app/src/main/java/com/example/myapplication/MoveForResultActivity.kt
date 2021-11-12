@@ -23,7 +23,7 @@ class MoveForResultActivity : AppCompatActivity() {
 
             val intent = Intent(this, MainActivity::class.java)
             val bundle = Bundle()
-            bundle.putString("Nomor", radioButton.text as String?)
+            bundle.putString("Warna", radioButton.text as String?)
             intent.putExtras(bundle)
             startActivity(intent)
         }
