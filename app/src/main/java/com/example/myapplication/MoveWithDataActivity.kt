@@ -10,7 +10,7 @@ class MoveWithDataActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_move_with_data)
 
-        tvDataReceived = findViewById(R.id.tv_data_recaived)
+        tvDataReceived = findViewById(R.id.tv_data_received)
         DataReceived()
     }
 
