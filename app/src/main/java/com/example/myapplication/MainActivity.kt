@@ -51,8 +51,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 R.id.btn_move_with_data -> run {
                     val intent = Intent(this, MoveWithDataActivity::class.java)
                     val bundle = Bundle()
-                    bundle.putString("Nama", "Kharisma")
-                    bundle.putString("Alamat", "Singosari")
+                    bundle.putString("Nama", "Malinda")
+                    bundle.putString("Alamat", "Lamongan")
                     intent.putExtras(bundle)
                     startActivity(intent)
                 }
